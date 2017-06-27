@@ -1,0 +1,84 @@
+
+div,
+section,
+main,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-content {
+  padding: 50px 0;
+}
+
+.cool-accordion {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.cool-accordion .accordion-item h3 {
+  margin: 0;
+}
+
+.cool-accordion .accordion-item .collapse-toggle {
+  display: block;
+  padding: 15px;
+  background-color: #eee;
+  color: #444;
+  text-decoration: none;
+}
+
+.cool-accordion .accordion-item .collapse-toggle:hover {
+  background-color: #ddd;
+}
+
+.cool-accordion .accordion-item .collapse-toggle:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.cool-accordion .accordion-item .collapse-wrapper {
+  padding: 15px;
+}
+
+.cool-accordion .accordion-item .collapse-wrapper p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
