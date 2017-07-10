@@ -1,4 +1,8 @@
-$(document).ready(function(){
+
+
+(function() {
+
+    $(document).ready(function(){
 	
 	//initially hides all the content
 	$('.collapse-wrapper').hide();
@@ -14,27 +18,6 @@ $(document).ready(function(){
 	    var otherContent = $('.collapse-toggle').not(event.target).parent().next();
 	    otherContent.slideUp();
 		
-	});
-	
-			
+	});			
 });
-
-	
-
-
-
-
-//(function() {
-
-    // Your code goes here
-
-   // console.log('hello world');
-
-
-
-
-
-
-
-
-//})();
+})();
